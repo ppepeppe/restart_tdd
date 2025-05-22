@@ -10,7 +10,8 @@ public record UserPoint(
     private static final long MIN_POINT = 0;
     private static final long MAX_POINT = 1000000L;
     public UserPoint {
-        if (point < MAX_POINT) {
+        System.out.println(point);
+        if (point < MIN_POINT) {
             throw new IllegalArgumentException("잔고가 부족합니다.");
         }
 
