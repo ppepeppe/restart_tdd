@@ -32,7 +32,6 @@ public class PointHistoryTable {
         try {
             TimeUnit.MILLISECONDS.sleep((long) (Math.random() * millis));
         } catch (InterruptedException ignored) {
-
         }
     }
 }
